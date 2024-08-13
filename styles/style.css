@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+.navebar{
+    display: flex;
+   justify-content: space-between;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin-top: 10px;
+    color: azure;
+    margin-right: 10rem;
+}
+.nav1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 26px;
+   margin-left: 10rem;
+}
+.navebar p{
+    cursor: pointer;
+}
+#hom{
+    background: rgb(230, 83, 60);
+    border-radius: 20px;
+    height: 20px;
+    width: 60px;
+    color: azure;
+}
+.banner1{
+    color: azure;
+    margin-left: 10rem;
+}
+   
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner1 h1{
+    font-size: 40px;
+    font-size: 4.5rem;
+}
+.banner2{
+    margin-right: 10rem;
+   
+}
+.bnt1{
+    height: 40px;
+    width: 150px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background: rgb(230, 83, 60);
+    color: azure;
+    border: none;
+}
+.bnt2{
+    height: 40px;
+    width: 150px;
+   margin-right: 5px;
+   border-radius: 20px;
+   color: white;
+   background-color: black;
+   border: 1px solid rgb(255, 255, 255);
+}
+.banner p{
+    font-size: 12px;
+   margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+ .banner2 img{
+    height: 50%;
+    margin-left: 59rem;
+    margin-top: -50px;
+
+ }
+ i{
+    background-color: red;
+
+ }
+ .banner2 h2,h4{
+    color: azure;
+   margin-bottom: 5px;
+}
+.banner2 p{
+    margin-top: 2px;
+}
+.sado1{
+    border: 2px solid white;
+    width: 90px;
+ padding: 10px;
+
+ position: relative;
+ height: 75px;
+ margin-left: 74rem;
+margin-top: -23rem;
+
+
+}
+.anisa{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: brown;
+   margin-right: 6px;
+}
+.sado2{
+    display: flex;
+    border: 2px solid white;
+    width: 90px;
+    height: 55px;
+    padding: 10px;
+ position: relative;
+
+ align-items: center;
+ gap: 5px;
+ margin-left: 58rem;
+margin-top: -150px;
+
+}
+.banner2{
+    position: absolute;
+   
+}
+
+
+
+
+ 
+
+
