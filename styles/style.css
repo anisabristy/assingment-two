@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
     font-family: "Inter", sans-serif;
 }
@@ -47,6 +48,9 @@ body{
     margin-right: 10rem;
    
 }
+#span{
+    font-family: "Great Vibes", cursive;
+}
 .bnt1{
     height: 40px;
     width: 150px;
@@ -88,7 +92,7 @@ body{
     margin-top: 2px;
 }
 .sado1{
-    border: 2px solid white;
+    border: 1px solid white;
     width: 90px;
  padding: 10px;
 
@@ -96,8 +100,8 @@ body{
  height: 75px;
  margin-left: 74rem;
 margin-top: -23rem;
-
-
+background-color: rgba(63, 60, 60, 0.364);
+backdrop-filter: blur(4px);
 }
 .anisa{
     height: 20px;
@@ -109,7 +113,7 @@ margin-top: -23rem;
 }
 .sado2{
     display: flex;
-    border: 2px solid white;
+    border: 1px solid white;
     width: 90px;
     height: 55px;
     padding: 10px;
@@ -119,16 +123,312 @@ margin-top: -23rem;
  gap: 5px;
  margin-left: 58rem;
 margin-top: -150px;
+background-color: rgba(18, 17, 17, 0.622);
+backdrop-filter: blur(4px);
 
 }
 .banner2{
     position: absolute;
    
 }
+.part2{
+    color: azure;
+  
+text-align: center;
+margin-top: 200px;
+}
+.ant{
+    font-size: 50px;
+}
+.bnt{
+    font-size: 12px;
 
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+}
+p{
+    color: rgba(255, 255, 255, 0.5); 
+}
+.part21 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 
+}
+ .part21{
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 50px;
+}
+ 
+.part21 h4,p{
+    text-align: center;
+    
+
+}
+.part21 p{
+    font-size: 12px;
+}  
+.abc{
+    margin-right: 7rem;
+}
+.part31 h1{
+    color:white;
+   font-size: 40px;
+}
+.part3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 40px;
+    background-color: rgba(63, 60, 60, 0.364);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+.part3 img{
+    height: 290px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 3rem;
+   
+
+   
+}
+#anisa{
+    text-align: left;
+}
+.part31{
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+.bde{
+    height: 40px;
+    width: 150px;
+    background-color: orangered;
+    color: azure;
+    border-radius: 20px;
+    border: none;
+}
+.part41{
+    color: azure;
+
+}
+.part4 h3{
+    color: azure;
+    
+}
+.part4{
+    display: flex;
+    background-color: rgba(63, 60, 60, 0.364);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 20rem;
+}
+.part41 td,th,tr ,table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+.part41 td{
+   font-size: 10px;
+   color: rgba(255, 255, 255, 0.5);
+}
+.part41 th{
+    font-size: 13px;
+}
+.part42{
+    margin-left: 10rem;
+    margin-top: 50px;
+}
+.part43{
+ margin-right: 10rem;
+ margin-top: 50px;
+}
+.part431 p{
+    text-align: left;
+    font-size: 12px;
+}
+.maw{
+    width: 170px;
+}
+.vaw{
+    width: 345px;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+.bur{
+    
+    height: 40px;
+    width: 150px;
+    background-color: orangered;
+    color: azure;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px; 
+
+}
+.part434{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.part433{
+    border-radius: 5px;
+}
+.part5 h1{
+    color: azure;
+    text-align: center;
+    font-size: 50px;
+}
+.part5 p{
+    
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+.part5{
+    margin-top: 50px;
+}
+.row-1,
+.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-top: 60px;
+    padding: 1rem;
+    /* margin-left: 17rem;
+    margin-right: 17rem; */
+}
+.row-1 img{
+    height: 230px;
+    width: 250px;
+    filter: brightness(70%);
+    border-radius: 20px;
+  gap: 5px;
+
+}
+.row-1 h6{
+    color: azure;
+    font-size: 15px;
+}
+.row-1 p{
+    font-size: 9px;
+    color: rgb(219, 226, 226);
+}
+.pic1{
+    position: relative;
+}
+.pic2{
+    position: absolute;
+  margin-top: -50px;
+  margin-left: 1rem;
+}
+.pic3{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 1rem;
+}
+.row-2 img{
+    height: 230px;
+    width: 250px;
+    filter: brightness(70%);
+    border-radius: 20px;
+
+}
+.row-2 h6{
+    color: azure;
+    font-size: 15px;
+}
+.row-2 p{
+    font-size: 9px;
+    color: rgb(219, 226, 226);
+}
+.part51{
+    background-color: rgba(63, 60, 60, 0.364);
+    backdrop-filter: blur(4px);
+    height: 33.5rem;
+    margin-top: 20px;
+   margin-left: 10rem;
+   margin-right: 10rem;
+   border-radius: 1.5rem;
+}
+.row-2{
+    margin-top: -10px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 10rem;
+    margin-right: 10rem; 
+    margin-top: 50px;
+}
+.last h1{
+    color: orangered;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.last p{
+    text-align: left;
+    font-size: 12px;
+}
+.last1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.last2{
+margin-left: 3rem;
+}
+.last3{
+    margin-left: 3rem;
+}
+.last5{
+    margin-left: 10rem;
+    margin-right: 10rem; 
+    margin-top: 40px;
+}
+.footer{
+    height: 20rem;
+    width: 100%;
+    background-color: rgba(63, 60, 60, 0.364);
+    backdrop-filter: blur(4px);
+}
+.part6{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.part6 th,td,h2{
+    color: azure;
+}
+.part6 td{
+    font-size: 12px;
+    color: rgba(245, 245, 220, 0.755);
+}
+.part6 table,th,td,tr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+}
+.ayman{
+    color: bisque;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
 
 
  
-
 
