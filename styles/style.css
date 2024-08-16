@@ -31,23 +31,21 @@ body{
     width: 60px;
     color: azure;
 }
-.banner1{
-    color: azure;
-    margin-left: 10rem;
-}
+
    
 .banner{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+   
+   justify-content: space-around;
+   width: 90%;
+   margin: auto;
+   
 }
 .banner1 h1{
     font-size: 40px;
     font-size: 4.5rem;
 }
-.banner2{
-    margin-right: 10rem;
-   
-}
+
 #span{
     font-family: "Great Vibes", cursive;
 }
@@ -73,13 +71,15 @@ body{
     font-size: 12px;
    margin-bottom: 5px;
     color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    
 }
- .banner2 img{
-    height: 50%;
+ /* .banner2 img{ */
+    /* height: 50%;
     margin-left: 59rem;
-    margin-top: -50px;
+  margin-top: -50px;
 
- }
+ } */
  i{
     background-color: red;
 
@@ -91,18 +91,28 @@ body{
 .banner2 p{
     margin-top: 2px;
 }
-.sado1{
-    border: 1px solid white;
-    width: 90px;
+.banner2{
+    /* background-image: url("/B10A2-versatile-ui-main/B10A2-versatile-ui-main/images/img2.png"); */
+    
+    width: 100%;
+}
+.banner1{
+    width: 100%;
+    color: azure;
+}
+ .sado1{
+    
+    
  padding: 10px;
 
- position: relative;
+ width: fit-content;
  height: 75px;
- margin-left: 74rem;
-margin-top: -23rem;
+
 background-color: rgba(63, 60, 60, 0.364);
 backdrop-filter: blur(4px);
-}
+margin-top: -55%;
+margin-left: 35%;
+} 
 .anisa{
     height: 20px;
     width: 20px;
@@ -111,26 +121,22 @@ backdrop-filter: blur(4px);
     background-color: brown;
    margin-right: 6px;
 }
-.sado2{
+ .sado2{
     display: flex;
-    border: 1px solid white;
-    width: 90px;
+   
+   width: fit-content;
     height: 55px;
     padding: 10px;
- position: relative;
 
+margin-top: -20%;
  align-items: center;
  gap: 5px;
- margin-left: 58rem;
-margin-top: -150px;
+
 background-color: rgba(18, 17, 17, 0.622);
 backdrop-filter: blur(4px);
 
-}
-.banner2{
-    position: absolute;
-   
-}
+} 
+
 .part2{
     color: azure;
   
@@ -303,8 +309,8 @@ p{
     
     margin-top: 60px;
     padding: 1rem;
-    /* margin-left: 17rem;
-    margin-right: 17rem; */
+     /* margin-left: 17rem;
+    margin-right: 17rem;  */
 }
 .row-1 img{
     height: 230px;
@@ -347,7 +353,7 @@ p{
     font-size: 15px;
 }
 .row-2 p{
-    font-size: 9px;
+    font-size: 12px;
     color: rgb(219, 226, 226);
 }
 .part51{
@@ -402,8 +408,8 @@ margin-left: 3rem;
     backdrop-filter: blur(4px);
 }
 .part6{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
     margin-left: 10rem;
     margin-right: 10rem;
 }
@@ -418,8 +424,8 @@ margin-left: 3rem;
 .part6 table,th,td,tr{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
-    height: 50px;
-    width: 350px;
+    height: 30px;
+    width: 250px;
     text-align: center;
 }
 .ayman{
@@ -428,7 +434,105 @@ margin-left: 3rem;
     margin-top: 50px;
     font-size: 40px;
 }
+.arham{
+    display: none;
+}
 
+@media screen and (max-width:600px){
+    .nav2{
+        display: none;
+    }
+    .arham{
+        display: block;
+        margin-top: 40px;
+        color: azure;
+    }
+   h1{
+    font-size: 10px;
+   }
+  
+   .row-1,
+.row-2{
+    grid-template-columns: 1fr;
+  
+}
+.part6{
+    grid-template-columns: 1fr;
+}
+.row-1  img{
+    height: 100px;
+    width: 170px;
+}
+.row-2  img{
+    height: 100px;
+    width: 170px;
+}
+.part51{
+    margin-left: 10rem;
+    margin-right: 6rem;
+    width: 15rem;
+    height: 44rem;
+}
+.row-1 h6{
+    color: azure;
+    font-size: 12px;
+}
+.row-2 h6{
+    color: azure;
+    font-size: 12px;
+}
+.part3 img{
+    height: 100%;
+    width: 300px;
+    margin-top: -20px;
+}
+.part3{
+    display: grid;
+    grid-template-columns: 1fr;
+   width: 350px;
+   height: 700px;
+   border-radius: 10px;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.part21{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.part4{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 40rem;
+    margin-left: 6rem;
+    width: 25rem;
+    
+}
+.part42{
+    margin-left: 5rem;
+}
+.part43{
+    margin-right: 5rem;
+}
+.last{
+    display: grid;
+   
+}
+.last1{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+.footer{
+    height: 50rem;
+    margin-left: 6rem;
+    border-radius: 20px;
+}
 
- 
+   .banner{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
 
+}
